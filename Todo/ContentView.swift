@@ -10,8 +10,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, Wolrd")
-    }
+		VStack(alignment: .leading){
+			Text("Hello, Wolrd")
+				.foregroundColor(Color("accent"))
+				.font(.system(size: 40))
+				.fontWeight(.semibold)
+		}
+	}
 }
 
 struct ContentView_Previews: PreviewProvider {
