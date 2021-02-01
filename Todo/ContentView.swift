@@ -10,15 +10,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-		VStack {
-			VStack(alignment: .leading){
+		VStack(alignment: .center){
 				Text("Hello, Wolrd")
 					.font(.title)
 					.foregroundColor(Color("accent"))
 					.fontWeight(.semibold)
+			Text("certificate")
 			}
-			Text(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/)
-		}
 	}
 }
 
