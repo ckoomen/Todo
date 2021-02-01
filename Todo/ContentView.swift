@@ -22,12 +22,19 @@ struct ContentView: View {
 				Spacer()
 				Image("Logo1")
 			}
+			.padding(.horizontal, 20)
+			.padding(.top, 20)
 			Spacer()
 			Image("Card1")
+			
 			.resizable()
-			.aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
+				.aspectRatio(contentMode: .fill)
+				.frame(width: 300, height: 110, alignment: .top)
 		}
 		.frame(width: 340.0, height: 220.0)
+		.background(Color("background2"))
+		.cornerRadius(20)
+		.shadow(radius: 20)
 	}
 }
 
