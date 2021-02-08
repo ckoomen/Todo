@@ -10,8 +10,8 @@ import SwiftUI
 
 struct ContentView: View {
 	@State var show = false
-	
-	
+	@State var viewState = CGSize.zero
+
     var body: some View {
 		ZStack {
 			TitleView()
@@ -43,14 +43,25 @@ struct ContentView: View {
 				.animation(.easeInOut(duration: 0.3))
 			
 			CardView()
+				.offset(x: viewState.width, y: viewState.height)
 				.blendMode(.hardLight)
+				.animation(.spring())
 				.onTapGesture {
 					self.show.toggle()
 				}
+				.gesture(
+					DragGesture().onChanged { value in
+						self.viewState = value.translation
+					}
+					.onEnded { value in
+						self.viewState = .zero
+						}
+					)
 			
 			BottomCardView()
 				.blur(radius: show ? 20 : 0)
 				.animation(.default)
+				.offset(x: 0, y: show ? 900 : 500)
 			
 			
 		}
@@ -139,6 +150,6 @@ struct BottomCardView: View {
 		.background(Color.white)
 		.cornerRadius(30)
 		.shadow(radius: 20)
-		.offset(x: 0, y: 500)
+//		.offset(x: 0, y: 500)
 	}
 }
