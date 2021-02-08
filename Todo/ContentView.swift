@@ -15,9 +15,10 @@ struct ContentView: View {
 				.blur(radius: 20)
 			
 			BackCardView()
-				.background(Color("background2"))
+				.background(Color("card1"))
 				.cornerRadius(20)
-				.shadow(radius: 20).offset(x:0, y: -40)
+				.shadow(radius: 20)
+				.offset(x:0, y: -40)
 				.scaleEffect(0.9)
 				.rotationEffect(.degrees(10))
 				.rotation3DEffect(Angle(degrees:10),
@@ -25,7 +26,7 @@ struct ContentView: View {
 				.blendMode(.hardLight)
 			
 			BackCardView()
-				.background(Color("background3"))
+				.background(Color("card3"))
 				.cornerRadius(20)
 				.shadow(radius: 20)
 				.offset(x:0, y: -20)
