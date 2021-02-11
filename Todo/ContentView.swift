@@ -107,7 +107,7 @@ struct ContentView: View {
 					.onEnded { value in
 						if self.bottomState.height > 70 {
 							self.showCard = false
-							}
+						}
 						if (self.bottomState.height < -100 &&
 								!self.showFull) || (self.bottomState.height < -200 && self.showFull){
 							self.bottomState.height = -300
@@ -133,7 +133,7 @@ struct CardView: View {
 		VStack {
 			HStack {
 				VStack(alignment: .leading){
-					Text("Hello, Wolrd")
+					Text("Hello, World")
 						.font(.title)
 						.foregroundColor(Color("accent"))
 						.fontWeight(.semibold)
