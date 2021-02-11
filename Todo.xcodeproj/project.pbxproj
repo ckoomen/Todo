@@ -15,6 +15,7 @@
 		60F64AA52427B9F0001AFC43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60F64AA32427B9F0001AFC43 /* LaunchScreen.storyboard */; };
 		60F64AB02427B9F0001AFC43 /* TodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F64AAF2427B9F0001AFC43 /* TodoTests.swift */; };
 		60F64ABB2427B9F0001AFC43 /* TodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60F64ABA2427B9F0001AFC43 /* TodoUITests.swift */; };
+		8BA6C7B925D5D7CE008B73B6 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA6C7B825D5D7CE008B73B6 /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		60F64AB62427B9F0001AFC43 /* TodoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60F64ABA2427B9F0001AFC43 /* TodoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoUITests.swift; sourceTree = "<group>"; };
 		60F64ABC2427B9F0001AFC43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BA6C7B825D5D7CE008B73B6 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				60F64A9E2427B9F0001AFC43 /* Assets.xcassets */,
 				60F64AA32427B9F0001AFC43 /* LaunchScreen.storyboard */,
 				60F64AA62427B9F0001AFC43 /* Info.plist */,
+				8BA6C7B825D5D7CE008B73B6 /* MenuView.swift */,
 				60F64AA02427B9F0001AFC43 /* Preview Content */,
 			);
 			path = Todo;
@@ -269,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60F64A992427B9EB001AFC43 /* AppDelegate.swift in Sources */,
+				8BA6C7B925D5D7CE008B73B6 /* MenuView.swift in Sources */,
 				60F64A9B2427B9EB001AFC43 /* SceneDelegate.swift in Sources */,
 				60F64A9D2427B9EB001AFC43 /* ContentView.swift in Sources */,
 			);
