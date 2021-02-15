@@ -1,11 +1,12 @@
 {
   "images" : [
     {
-      "filename" : "Avatar.jpg",
+      "filename" : "AvatarCK.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "AvatarCK-1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
