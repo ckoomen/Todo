@@ -12,7 +12,7 @@ struct UpdateList: View {
     var body: some View {
 		NavigationView {
 			List(updateData) { update in
-				NavigationLink(destination: Text(update.text)) {
+				NavigationLink(destination: UpdateDetail(update: update)) {
 					HStack {
 						Image(update.image)
 							.resizable()
@@ -27,6 +27,7 @@ struct UpdateList: View {
 						VStack(alignment: .leading, spacing: 8.0) {
 							Text(update.title)
 								.font(.system(size: 20, weight: .bold))
+						
 							Text(update.text)
 								.lineLimit(/*@START_MENU_TOKEN@*/2/*@END_MENU_TOKEN@*/)
 								.font(.subheadline)
