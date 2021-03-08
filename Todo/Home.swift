@@ -21,7 +21,7 @@ struct Home: View {
 				//			.background(Color.white)
 				.background(showProfile ? Color("card2") : Color(#colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0)))
 				.clipShape(RoundedRectangle(cornerRadius: 30))
-				.shadow(color: Color.black.opacity(0.2), radius: 20, x: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/, y: 20)
+				.shadow(color: Color.black.opacity(0.2), radius: 20, x: 0, y: 20)
 				.offset(y: showProfile ? -450 : 0)
 				.rotation3DEffect(Angle(degrees: showProfile ? Double(viewState.height / 10) - 10 : 0), axis : (x: 10.0, y: 0.0, z: 0.0))
 				.scaleEffect(showProfile ? 0.9 : 1)
@@ -41,7 +41,7 @@ struct Home: View {
 				self.viewState=value.translation
 			}
 				.onEnded { value in
-					if self.viewState.height > 50 {
+					if self.viewState.height > 050 {
 						self.showProfile = false
 					}
 					(self.viewState = .zero)
