@@ -34,7 +34,8 @@ struct HomeView: View {
 						.shadow(color: Color.black.opacity(0.1), radius: 1, x: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/, y: 1)
 						.shadow(color: Color.black.opacity(0.2), radius: 10, x: /*@START_MENU_TOKEN@*/0.0/*@END_MENU_TOKEN@*/, y: 10)
 				}
-				.sheet(isPresented: $showUpdate) {ContentView()
+				.sheet(isPresented: $showUpdate) {
+					UpdateList()
 				
 				}
 			}
