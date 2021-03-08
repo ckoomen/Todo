@@ -9,8 +9,7 @@
 import SwiftUI
 
 struct UpdateDetail: View {
-	var update: Update = updateData[2
-	]
+	var update: Update = updateData[2]
 	
     var body: some View {
 		List {

@@ -20,6 +20,7 @@
 		8BA6C7B925D5D7CE008B73B6 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BA6C7B825D5D7CE008B73B6 /* MenuView.swift */; };
 		8BAE0AD925F17F5500225855 /* UpdateList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAE0AD825F17F5500225855 /* UpdateList.swift */; };
 		8BAE0ADE25F50C5E00225855 /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAE0ADD25F50C5E00225855 /* UpdateDetail.swift */; };
+		8BAE0AE325F6B61200225855 /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAE0AE225F6B61200225855 /* UpdateStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		8BA6C7B825D5D7CE008B73B6 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		8BAE0AD825F17F5500225855 /* UpdateList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateList.swift; sourceTree = "<group>"; };
 		8BAE0ADD25F50C5E00225855 /* UpdateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetail.swift; sourceTree = "<group>"; };
+		8BAE0AE225F6B61200225855 /* UpdateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				60F64AA32427B9F0001AFC43 /* LaunchScreen.storyboard */,
 				8BAE0AD825F17F5500225855 /* UpdateList.swift */,
 				8BAE0ADD25F50C5E00225855 /* UpdateDetail.swift */,
+				8BAE0AE225F6B61200225855 /* UpdateStore.swift */,
 				60F64AA62427B9F0001AFC43 /* Info.plist */,
 				8BA6C7B825D5D7CE008B73B6 /* MenuView.swift */,
 				60F64AA02427B9F0001AFC43 /* Preview Content */,
@@ -284,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60F64A992427B9EB001AFC43 /* AppDelegate.swift in Sources */,
+				8BAE0AE325F6B61200225855 /* UpdateStore.swift in Sources */,
 				8BAE0AD925F17F5500225855 /* UpdateList.swift in Sources */,
 				8BA6C7B925D5D7CE008B73B6 /* MenuView.swift in Sources */,
 				8BAE0ADE25F50C5E00225855 /* UpdateDetail.swift in Sources */,
