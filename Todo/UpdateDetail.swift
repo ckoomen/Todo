@@ -23,7 +23,7 @@ struct UpdateDetail: View {
 				}
 			.navigationBarTitle(update.title)
 		}
-		.listStyle(GroupedListStyle())
+		.listStyle(DefaultListStyle())
     }
 }
 
