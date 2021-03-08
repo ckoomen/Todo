@@ -23,7 +23,7 @@ struct Home: View {
 				.clipShape(RoundedRectangle(cornerRadius: 30))
 				.shadow(color: Color.black.opacity(0.2), radius: 20, x: 0, y: 20)
 				.offset(y: showProfile ? -450 : 0)
-				.rotation3DEffect(Angle(degrees: showProfile ? Double(viewState.height / 10) - 10 : 0), axis : (x: 10.0, y: 0.0, z: 0.0))
+				.rotation3DEffect(Angle(degrees: showProfile ? Double(viewState.height / 20) - 10 : 0), axis : (x: 10.0, y: 0.0, z: 0.0))
 				.scaleEffect(showProfile ? 0.9 : 1)
 				.animation(.spring())
 				.edgesIgnoringSafeArea(.all)
@@ -38,11 +38,13 @@ struct Home: View {
 			}
 			.gesture(
 				DragGesture().onChanged { value in
-				self.viewState=value.translation
+				self.viewState = value.translation
 			}
 				.onEnded { value in
-					if self.viewState.height > 050 {
+					if self.viewState.height > 50 {
 						self.showProfile = false
+//					else if self.viewState.height < 600
+//							self.showProfile = false
 					}
 					(self.viewState = .zero)
 			}
