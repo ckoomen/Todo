@@ -22,6 +22,7 @@
 		8BAE0ADE25F50C5E00225855 /* UpdateDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAE0ADD25F50C5E00225855 /* UpdateDetail.swift */; };
 		8BAE0AE325F6B61200225855 /* UpdateStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAE0AE225F6B61200225855 /* UpdateStore.swift */; };
 		8BAE0AE825F6BDD600225855 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAE0AE725F6BDD600225855 /* TabBar.swift */; };
+		8BD2ED0B260A87DE0030C4D1 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BD2ED0A260A87DE0030C4D1 /* RingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		8BAE0ADD25F50C5E00225855 /* UpdateDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateDetail.swift; sourceTree = "<group>"; };
 		8BAE0AE225F6B61200225855 /* UpdateStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateStore.swift; sourceTree = "<group>"; };
 		8BAE0AE725F6BDD600225855 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		8BD2ED0A260A87DE0030C4D1 /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				60F64A982427B9EB001AFC43 /* AppDelegate.swift */,
 				60F64A9A2427B9EB001AFC43 /* SceneDelegate.swift */,
 				60F64A9C2427B9EB001AFC43 /* ContentView.swift */,
+				8BD2ED0A260A87DE0030C4D1 /* RingView.swift */,
 				8B7104D825DB135300D7A896 /* Home.swift */,
 				8B7104DD25DC62B300D7A896 /* HomeView.swift */,
 				8BA6C7B825D5D7CE008B73B6 /* MenuView.swift */,
@@ -294,6 +297,7 @@
 				8BAE0AD925F17F5500225855 /* UpdateList.swift in Sources */,
 				8BA6C7B925D5D7CE008B73B6 /* MenuView.swift in Sources */,
 				8BAE0ADE25F50C5E00225855 /* UpdateDetail.swift in Sources */,
+				8BD2ED0B260A87DE0030C4D1 /* RingView.swift in Sources */,
 				8B7104D925DB135300D7A896 /* Home.swift in Sources */,
 				8B7104DE25DC62B300D7A896 /* HomeView.swift in Sources */,
 				60F64A9B2427B9EB001AFC43 /* SceneDelegate.swift in Sources */,
